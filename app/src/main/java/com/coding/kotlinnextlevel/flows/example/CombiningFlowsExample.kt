@@ -12,7 +12,7 @@ fun main() {
     combiningFlow()
     zipFlow()
 }
-g
+
 private fun combiningFlow() {
     runBlocking {
         val stockPrices = getLivePrice()
